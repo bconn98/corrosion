@@ -69,8 +69,8 @@ endif()
 #
 # It is strongly encouraged to install Corrosion separately and use
 # `find_package(Corrosion REQUIRED)` instead if that works with your workflow.
-list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
-include(Corrosion)
+#list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
+#include(Corrosion)
 
 # Testing
 if (CORROSION_BUILD_TESTS)
